@@ -4,5 +4,12 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
+
+#columnas {
+  column-count: 3;
+  list-style: none;
+}
+
+
