@@ -3,20 +3,20 @@
   <h3>Ironhack Cinema</h3>
   <h5>Click on the movie to check the showtimes!</h5>
 
-  <div id="container">
+ 
 
     {{#each this.allMovies}}
 
-    <ul id="columnas">
-      <li id="pelicula">
+    <div id="columnas">
+      <div id="pelicula">
           <img src="{{image}}" alt="">
           <h5>{{title}}</h5>
           <a href="/movies/{{this._id}}">See more</a>
-      </li>
-    </ul>
+      </div>
+    </div>
               
     {{/each}}
 
-  </div>
+  
 
 </div>

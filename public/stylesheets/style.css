@@ -7,9 +7,51 @@ a {
   color: #00b7ff;
 }
 
+#inicio{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  height: 500px;
+  background-image: url("../images/cinema.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+#titulo{
+  color: white;
+  font-size: 70px;
+  padding-right: 10%;
+  padding-top: 7%;
+  margin:0px
+  
+}
+
+#link-check{
+padding-right: 28%;
+
+}
+
+#button{
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  color: blue;
+  border-radius: 20%;
+  font-size: 12px;
+}
+
 #columnas {
-  column-count: 3;
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+#pelicula {
+  flex: 33.33%;
 }
 
 
